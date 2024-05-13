@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="Dictionar.Components.AnswerElement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Dictionar.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="500" d:Background="#FCFFE7">
+    <DockPanel Width="450" Margin="5">
+        <TextBlock x:Name="QuestText" FontSize="15" Width="140" HorizontalAlignment="Center" TextAlignment="Center"
+                           FontFamily="/assets/#Mochiy Pop One"  Text="{Binding MyQuestText,RelativeSource={RelativeSource AncestorType=UserControl}}"/>
+        <TextBlock x:Name="AnswerText" FontSize="15" Width="140"  HorizontalAlignment="Center" TextAlignment="Center" Margin="15,0,15,0"
+                           FontFamily="/assets/#Mochiy Pop One" Text="{Binding MyAnswerText,RelativeSource={RelativeSource AncestorType=UserControl}}"/>
+        <TextBlock x:Name="CorectText" FontSize="15" Width="140"  HorizontalAlignment="Center" TextAlignment="Center"
+                           FontFamily="/assets/#Mochiy Pop One" Text="{Binding MyCorectText,RelativeSource={RelativeSource AncestorType=UserControl}}"/>
+    </DockPanel>
+</UserControl>

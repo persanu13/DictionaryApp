@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\add_new_word.png" />
+    <None Remove="Assets\arrow_left.png" />
+    <None Remove="Assets\arrow_right.png" />
+    <None Remove="Assets\btn_restart.png" />
+    <None Remove="Assets\cat.png" />
+    <None Remove="Assets\cat_logo_blue.png" />
+    <None Remove="Assets\cat_logo_red.png" />
+    <None Remove="Assets\default.jpg" />
+    <None Remove="Assets\delete.png" />
+    <None Remove="Assets\edit.png" />
+    <None Remove="Assets\login_blue.png" />
+    <None Remove="Assets\login_red.png" />
+    <None Remove="Assets\login_title.png" />
+    <None Remove="Assets\MochiyPopOne.ttf" />
+    <None Remove="Assets\reverse_cat.png" />
+    <None Remove="Assets\searchLogo.png" />
+    <None Remove="Assets\title.png" />
+    <None Remove="Assets\Title_Logo2.png" />
+    <None Remove="Assets\Title_Logo_Game.png" />
+    <None Remove="Assets\update_words.png" />
+    <None Remove="Assets\word.jpg" />
+    <None Remove="Assets\x_button.png" />
+    <None Remove="Assets\x_button_hover.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\add_new_word.png" />
+    <Resource Include="Assets\arrow_left.png" />
+    <Resource Include="Assets\arrow_right.png" />
+    <Resource Include="Assets\btn_restart.png" />
+    <Resource Include="Assets\cat.png" />
+    <Resource Include="Assets\cat_logo_blue.png" />
+    <Resource Include="Assets\cat_logo_red.png" />
+    <Resource Include="Assets\default.jpg" />
+    <Resource Include="Assets\delete.png" />
+    <Resource Include="Assets\edit.png" />
+    <Resource Include="Assets\login_blue.png" />
+    <Resource Include="Assets\login_red.png" />
+    <Resource Include="Assets\login_title.png" />
+    <Resource Include="Assets\MochiyPopOne.ttf" />
+    <Resource Include="Assets\reverse_cat.png" />
+    <Resource Include="Assets\searchLogo.png" />
+    <Resource Include="Assets\title.png" />
+    <Resource Include="Assets\Title_Logo2.png" />
+    <Resource Include="Assets\Title_Logo_Game.png" />
+    <Resource Include="Assets\update_words.png" />
+    <Resource Include="Assets\word.jpg" />
+    <Resource Include="Assets\x_button.png" />
+    <Resource Include="Assets\x_button_hover.png" />
+  </ItemGroup>
+</Project>
